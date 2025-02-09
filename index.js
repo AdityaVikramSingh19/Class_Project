@@ -22,7 +22,7 @@ function searchFn(e) {
 }
 
 async function fetchData(target) {
-    let endpoint = `https://api.weatherapi.com/v1/current.json?key=35af7ff606db422880d141328231305&q=${target}&aqi=no`;
+    let endpoint = `https://api.weatherapi.com/v1/current.json?key=679ad358b9064bc380f51617250602&q=${target}&aqi=no`;
 
     const response = await fetch(endpoint);
     const data = await response.json();
