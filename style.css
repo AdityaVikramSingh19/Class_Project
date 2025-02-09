@@ -13,6 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -83,6 +85,7 @@ nav form button {
     color: white;
 }
 
+/* Light Mode Styles */
 .light-mode {
     background: white;
     color: black;
@@ -94,4 +97,20 @@ nav form button {
 
 .light-mode .theme-toggle {
     color: black;
+}
+
+/* Light mode weather card styles */
+.light-mode .weather-card {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #2c2c2c;
+    color: #ffffff;
+}
+
+.weather-card.dark-mode {
+    background-color: #3c3c3c;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
